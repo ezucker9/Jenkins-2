@@ -49,7 +49,7 @@ def process_transactions(oldbalfile,transfile,transummfile,newbalfile):
 
         for key, value  in ord_dic.items():
             number=key
-            ssn=value[0]
+            ssn=value[1]
             prev_bal=float(value[1])
             deposits=float(value[2])
             withdrawals=float(value[3])
