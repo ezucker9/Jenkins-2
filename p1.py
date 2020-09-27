@@ -22,7 +22,7 @@ def update_cust_dictionary(cdictionary,transfile):
         exists=t[0] in cdictionary
 
         if exists :
-            value=float(t[1])
+            value=float(t[0])
 
             if value > 0:
                 deposit=float(cdictionary[t[0]][2])
